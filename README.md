@@ -19,7 +19,6 @@ A conversational assistant that helps refine room requirements, adjust features,
 ### 💬 Recommendation Results
 The system generates refined suggestions — improved layouts, smarter connections, and alternative interior arrangements. 🏘️📐
 
-*(Add actual image files later.)*
 
 ---
 
@@ -168,15 +167,18 @@ model/pytorch_lora_weights.safetensors
 ``` 
 
 3️⃣ **Update the path in app.py**  
+
 ```bash
 lora_path = "model/pytorch_lora_weights.safetensors"  
 ```
 
 4️⃣ **Run the server**  
+
 ```bash
 python app.py  
 ```
-# Local server: http://localhost:5000 🌐
+
+**Local server: http://localhost:5000**🌐
 
 ### Option 2 — Google Colab GPU Deployment (Primary Method)
 
@@ -192,8 +194,7 @@ app.run(host="0.0.0.0", port=5000)
 from pyngrok import ngrok
 ngrok.connect(5000)
 ```
-# Use the ngrok URL for inference. 🚀🔗
-
+** Use the ngrok URL for inference. 🚀🔗**
 ---
 ## 🔌 API Endpoints
 
@@ -206,3 +207,51 @@ Checks the server status.
 ```arduino
 SDXL LoRA API is running!
 ```
+
+---
+
+### POST `/generate`
+
+Generates an image based on the given prompt.
+
+**JSON Input:**
+
+```json
+{
+  "prompt": "5 bedrooms, 2 living rooms, 1 kitchen, 3 bathrooms",
+  "width": 1024,
+  "height": 1024
+}
+```
+**Output:**
+
+```json
+{
+  "message": "Image generated successfully",
+  "url": "http://<host>/generated.png"
+}
+```
+## 🔭 Future Enhancements
+
+- 🏷️ Auto room labeling  
+- 📐 Room coordinate extraction (JSON)  
+- 🖌️ SVG floorplan export  
+- 🏢 Multi-floor support  
+- 🧩 Constraint-aware generation  
+- 🌐 UI expansion on HuggingFace  
+
+---
+
+## 👥 Team Members
+
+- **Mai Abd Elghany Abd Elhalim Ghanm** — Team Leader 🏆  
+- **Kenzy Khaled Mahmoud Tawfiq** 💡  
+- **Sara Mostafa Ahmed Ali** ✨  
+
+---
+
+## 🌟 Final Reflection
+
+Hues.AI is a bridge between imagination and form 🏗️ — a tool that lets words condense into walls, spaces, and paths.  
+It stands at the edge where language becomes structure, and ideas become places we can inhabit 🌈.
+
