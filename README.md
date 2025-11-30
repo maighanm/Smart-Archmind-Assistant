@@ -26,7 +26,7 @@ A conceptual teaser showcasing Hues.AI’s capabilities. 🎬✨
 > "🧠 The entire ad was generated using AI tools — matching the project’s creative philosophy. 🎨🤯 " 
 
 ▶️ **Watch here on Google Drive**  
-[Click to view the video](https://drive.google.com/drive/folders/1YkplFrS5w2pWTE0srYwQD8vc57_GZkxS?usp=sharing)
+[Click to view the video]([https://drive.google.com/drive/folders/1YkplFrS5w2pWTE0srYwQD8vc57_GZkxS?usp=sharing](https://drive.google.com/file/d/1WIaQTiNMw6L1XrKPQR5NznrUb7LrUDSR/view?usp=sharing))
 
 
 ---
