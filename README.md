@@ -3,7 +3,7 @@
 A system that turns simple words into fully realized architectural floorplans — where imagination quietly hardens into structure. ✨🏠
 
 <p align="center"> 
-  <img src="HEADER_IMAGE_LINK_HERE" alt="Hues.AI Header" width="600"/> 
+  <img src="https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/header.jpg" alt="Hues.AI Header" width="600"/> 
 </p>
 
 ---
