@@ -14,7 +14,7 @@ A system that turns simple words into fully realized architectural floorplans �
 
 | 🏠 Home Interface | 🔍 Chatbot Interaction | 💬 Recommendation Results |
 |------------------|----------------------|---------------------------|
-| ![Home Interface](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/home.jpg) | ![Chatbot Interaction](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/chatbot.jpg) | ![Recommendation Results](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/recommendation.jpg) |
+| ![Home Interface](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/home.jpg) | ![Chatbot Interaction](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/model.jpg) | ![Recommendation Results](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/recommendation.jpg) |
 
 ---
 
@@ -23,7 +23,7 @@ A system that turns simple words into fully realized architectural floorplans �
 🎥 **Watch the Ad Video**  
 A conceptual teaser showcasing Hues.AI’s capabilities. 🎬✨  
 
-🧠 The entire ad was generated using AI tools — matching the project’s creative philosophy. 🎨🤯
+> "🧠 The entire ad was generated using AI tools — matching the project’s creative philosophy. 🎨🤯"
 
 ---
 
@@ -54,7 +54,6 @@ The project offers:
 - 🌐 Public Hugging Face Space deployment  
 - 🔌 Flask inference API (local + Colab)  
 - 📦 Clean dataset for reproducible training  
-- 📑 JSON-ready structure for future post-processing  
 - 🖼️ Supports high-resolution 1024×1024 output  
 
 ---
@@ -94,6 +93,11 @@ This indicates:
 ## 🗂️ Repository Structure
 ```bash
 .
+├── assets/
+│   ├── header.jpg
+│   ├── home.jpg
+│   ├── model.jpg
+│   └── recommendation.jpg
 ├── model/
 │   ├── pytorch_lora_weights.safetensors
 │   └── config.json
@@ -229,12 +233,12 @@ Generates an image based on the given prompt.
 ```
 ## 🔭 Future Enhancements
 
+- 🌐 Enhance the overall accurecy  
 - 🏷️ Auto room labeling  
 - 📐 Room coordinate extraction (JSON)  
 - 🖌️ SVG floorplan export  
 - 🏢 Multi-floor support  
 - 🧩 Constraint-aware generation  
-- 🌐 UI expansion on HuggingFace  
 
 ---
 
