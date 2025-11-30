@@ -86,3 +86,17 @@ My `model/` folder currently contains:
 {
   "base_model_name_or_path": "stabilityai/stable-diffusion-xl-base-1.0"
 }
+```
+---
+
+This indicates:  
+⚡ The LoRA is built on top of SDXL Base 1.0  
+⚡ No additional LoRA-specific metadata exists  
+⚡ Loading is straightforward and compatible with the Diffusers pipeline  
+
+---
+
+## 🗂️ Repository Structure
+
+
+
