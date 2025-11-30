@@ -97,7 +97,7 @@ This indicates:
 ---
 
 ## 🗂️ Repository Structure
-```
+```bash
 .
 ├── model/
 │   ├── pytorch_lora_weights.safetensors
@@ -176,5 +176,33 @@ lora_path = "model/pytorch_lora_weights.safetensors"
 ```bash
 python app.py  
 ```
-## Local server: http://localhost:5000 🌐
+# Local server: http://localhost:5000 🌐
 
+### Option 2 — Google Colab GPU Deployment (Primary Method)
+
+1️⃣ **Open my notebook**
+2️⃣ **Install requirements**
+3️⃣ **Load SDXL + LoRA**
+4️⃣ **Start Flask:**
+```python
+app.run(host="0.0.0.0", port=5000)
+```
+5️⃣ **Expose via ngrok:**
+```python
+from pyngrok import ngrok
+ngrok.connect(5000)
+```
+# Use the ngrok URL for inference. 🚀🔗
+
+---
+## 🔌 API Endpoints
+
+### GET `/`
+
+Checks the server status.
+
+**Response:**
+
+```arduino
+SDXL LoRA API is running!
+```
