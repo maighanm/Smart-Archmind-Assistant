@@ -182,7 +182,7 @@ lora_path = "model/pytorch_lora_weights.safetensors"
 python app.py  
 ```
 
-**Local server: http://localhost:5000**🌐
+**Local server: http://localhost:5000🌐**
 
 ### Option 2 — Google Colab GPU Deployment (Primary Method)
 
