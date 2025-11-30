@@ -97,6 +97,83 @@ This indicates:
 ---
 
 ## 🗂️ Repository Structure
+```
+.
+├── model/
+│   ├── pytorch_lora_weights.safetensors
+│   └── config.json
+├── notebooks/
+│   └── (training & preprocessing notebooks)
+├── app.py
+├── floor_plan_model.py
+├── requirements.txt
+└── README.md
+```
+---
 
+## 🧬 Dataset
 
+My cleaned, structured training dataset is available here:  
+
+📦 [Google Drive link](https://drive.google.com/file/d/1InObuWPKeTRwpHoSfgDOerTb-OcIAP-4/view?usp=drivesdk)  
+
+Includes:  
+- 🖼️ Floorplan images  
+- 📝 Normalized captions  
+- ✔️ Quality-filtered samples  
+- ⚡ Preprocessing aligned to SDXL  
+
+---
+
+## 🧠 Training Summary
+
+- **Model:** SDXL Base 1.0  
+- **Training:** LoRA fine-tuning  
+- **Rank:** 4–32 (depending on experiment)  
+- **Learning Rate:** 1e-4 to 5e-4  
+- **Batch Size:** 4–32  
+- **GPU:** T4 / A100  
+- **Objective:** Structural accuracy + clear interior layout lines 💪📐  
+
+---
+
+## 🔧 Technologies Used
+
+- 🖼️ Stable Diffusion XL  
+- 🧩 LoRA fine-tuning  
+- 🤗 HuggingFace Diffusers  
+- 🐍 Flask  
+- ☁️ Google Colab  
+- 🔗 ngrok  
+- 🌐 Hugging Face Spaces  
+- 💻 Python 3.x  
+
+---
+
+## 🚀 Running the Project
+
+### Option 1 — Local Execution (with `python app.py`)
+
+1️⃣ Install dependencies  
+
+```bash
+pip install -r requirements.txt
+```
+
+2️⃣ **Place the LoRA weights**  
+Ensure the file is located at:  
+
+```bash
+model/pytorch_lora_weights.safetensors
+```
+2️⃣ Place the LoRA weights  
+Ensure the file is located at: model/pytorch_lora_weights.safetensors  
+
+3️⃣ Update the path in app.py  
+lora_path = "model/pytorch_lora_weights.safetensors"  
+
+4️⃣ Run the server  
+python app.py  
+
+Local server: http://localhost:5000 🌐
 
