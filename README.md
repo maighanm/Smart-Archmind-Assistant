@@ -6,19 +6,15 @@ A system that turns simple words into fully realized architectural floorplans �
   <img src="https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/header.jpg" alt="Hues.AI Header" width="600"/> 
 </p>
 
+> "Where words meet architecture and ideas solidify into reality."
+
 ---
 
 ## 📸 Screenshots
 
-### 🏠 Home Interface
-A simple, elegant interface for entering design descriptions. Hues.AI interprets my text and begins assembling the architectural structure. ✍️✨
-
-### 🔍 Chatbot Interaction
-A conversational assistant that helps refine room requirements, adjust features, and explore different layout possibilities. 🤖💬
-
-### 💬 Recommendation Results
-The system generates refined suggestions — improved layouts, smarter connections, and alternative interior arrangements. 🏘️📐
-
+| 🏠 Home Interface | 🔍 Chatbot Interaction | 💬 Recommendation Results |
+|------------------|----------------------|---------------------------|
+| ![Home Interface](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/home.jpg) | ![Chatbot Interaction](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/chatbot.jpg) | ![Recommendation Results](https://raw.githubusercontent.com/nhahub/NHA-068/main/assets/recommendation.jpg) |
 
 ---
 
@@ -27,7 +23,7 @@ The system generates refined suggestions — improved layouts, smarter connectio
 🎥 **Watch the Ad Video**  
 A conceptual teaser showcasing Hues.AI’s capabilities. 🎬✨  
 
-🧠 The entire ad was generated using AI tools — matching my project’s creative philosophy. 🎨🤯
+🧠 The entire ad was generated using AI tools — matching the project’s creative philosophy. 🎨🤯
 
 ---
 
