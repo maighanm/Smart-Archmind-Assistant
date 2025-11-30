@@ -233,12 +233,12 @@ Generates an image based on the given prompt.
 ```
 ## 🔭 Future Enhancements
 
-- 🌐 Enhance the overall accurecy  
-- 🏷️ Auto room labeling  
-- 📐 Room coordinate extraction (JSON)  
+- 🌐 Generate 3D layouts
+- 🏷️ Add multi-floor building support
+- 📐 Improve segmentation accuracy  
 - 🖌️ SVG floorplan export  
-- 🏢 Multi-floor support  
-- 🧩 Constraint-aware generation  
+- 🏢 Multi-floor support
+- 🧩 Allow style customization  
 
 ---
 
