@@ -1,0 +1,11 @@
+diffusers==0.29.2
+accelerate==0.27.2
+peft==0.10.0
+transformers==4.41.2
+safetensors==0.4.3
+torch==2.2.0
+flask==3.0.0
+pillow==9.5.0
+pyngrok==7.1.0
+
+
