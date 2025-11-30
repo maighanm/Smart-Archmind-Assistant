@@ -23,7 +23,11 @@ A system that turns simple words into fully realized architectural floorplans �
 🎥 **Watch the Ad Video**  
 A conceptual teaser showcasing Hues.AI’s capabilities. 🎬✨  
 
-> "🧠 The entire ad was generated using AI tools — matching the project’s creative philosophy. 🎨🤯"
+> "🧠 The entire ad was generated using AI tools — matching the project’s creative philosophy. 🎨🤯 " 
+
+▶️ **Watch here on Google Drive**  
+[Click to view the video](https://drive.google.com/drive/folders/1YkplFrS5w2pWTE0srYwQD8vc57_GZkxS?usp=sharing)
+
 
 ---
 
