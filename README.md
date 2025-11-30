@@ -154,7 +154,7 @@ Includes:
 
 ### Option 1 — Local Execution (with `python app.py`)
 
-1️⃣ Install dependencies  
+1️⃣ **Install dependencies** 
 
 ```bash
 pip install -r requirements.txt
@@ -165,15 +165,16 @@ Ensure the file is located at:
 
 ```bash
 model/pytorch_lora_weights.safetensors
-```
-2️⃣ Place the LoRA weights  
-Ensure the file is located at: model/pytorch_lora_weights.safetensors  
+``` 
 
-3️⃣ Update the path in app.py  
+3️⃣ **Update the path in app.py**  
+```bash
 lora_path = "model/pytorch_lora_weights.safetensors"  
+```
 
-4️⃣ Run the server  
+4️⃣ **Run the server**  
+```bash
 python app.py  
-
-Local server: http://localhost:5000 🌐
+```
+## Local server: http://localhost:5000 🌐
 
