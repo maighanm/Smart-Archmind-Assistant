@@ -8,16 +8,6 @@ A system that turns simple words into fully realized architectural floorplans �
 
 ---
 
-## 🌐 Live Demo
-
-Experience Hues.AI instantly through my hosted demo:  
-
-🔗 [https://mai2026-sdxl-lora-floorplan.hf.space](https://mai2026-sdxl-lora-floorplan.hf.space)  
-
-This Hugging Face Space runs my fine-tuned model with GPU acceleration and allows me (or anyone) to generate floorplans without installing anything. 🚀💻
-
----
-
 ## 📸 Screenshots
 
 ### 🏠 Home Interface
@@ -71,6 +61,16 @@ The project offers:
 - 📦 Clean dataset for reproducible training  
 - 📑 JSON-ready structure for future post-processing  
 - 🖼️ Supports high-resolution 1024×1024 output  
+
+---
+
+## 🌐 Live Demo
+
+Experience Hues.AI instantly through my hosted demo:  
+
+🔗 [https://mai2026-sdxl-lora-floorplan.hf.space](https://mai2026-sdxl-lora-floorplan.hf.space)  
+
+This Hugging Face Space runs my fine-tuned model and allows me (or anyone) to generate floorplans without installing anything. 🚀💻
 
 ---
 
